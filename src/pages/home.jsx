@@ -18,13 +18,17 @@ import { DropdownMenuDemo } from "@/components/features/dropdown-menu";
 function Home() {
   return (
     <div className="grid grid-cols-4 gap-4 p-4">
-      <AlertDemo />
+
+      <div>
+         <AlertDemo />
+        <ContextMenuDemo />
+      </div>
+    
       <AccordionDemo />
 
       <div>
         <ButtonDemo />
         <CollapsibleDemo />
-        <ContextMenuDemo />
       </div>
 
       <div>

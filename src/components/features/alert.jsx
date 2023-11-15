@@ -5,7 +5,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 export function AlertDemo() {
   return (
-    <Alert>
+    <Alert className="w-fit h-fit">
       <Terminal className=" w-4" />
       <AlertTitle>Heads up!</AlertTitle>
       <AlertDescription>
