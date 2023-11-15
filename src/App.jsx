@@ -1,8 +1,7 @@
 
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/examples/navbar";
+import Navbar from "./components/features/navbar";
 import Home from "./pages/home";
-import Footer from "./components/examples/footer";
 
 import { ThemeProvider } from "./context/theme-context";
 function App() {
@@ -14,7 +13,6 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
-      <Footer />
     </ThemeProvider>
   );
 }

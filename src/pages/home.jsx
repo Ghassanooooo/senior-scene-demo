@@ -1,19 +1,19 @@
 
-import { AccordionDemo } from "@/components/examples/accordion";
-import { AlertDemo } from "@/components/examples/alert";
-import { AlertDialogDemo } from "@/components/examples/alert-dialog";
-import { AvatarDemo } from "@/components/examples/avatar";
-import { ButtonDemo } from "@/components/examples/button";
-import { CalendarDemo } from "@/components/examples/calendar";
-import { CardWithForm } from "@/components/examples/card";
-import { CollapsibleDemo } from "@/components/examples/collapsible";
-import { ComboboxDemo } from "@/components/examples/combobox";
-import { CommandDemo } from "@/components/examples/command";
-import { ContextMenuDemo } from "@/components/examples/context-menu";
-import { DataTableDemo } from "@/components/examples/data-table";
-import { DatePickerDemo } from "@/components/examples/date-picker";
-import { DialogDemo } from "@/components/examples/dialog";
-import { DropdownMenuDemo } from "@/components/examples/dropdown-menu";
+import { AccordionDemo } from "@/components/features/accordion";
+import { AlertDemo } from "@/components/features/alert";
+import { AlertDialogDemo } from "@/components/features/alert-dialog";
+import { AvatarDemo } from "@/components/features/avatar";
+import { ButtonDemo } from "@/components/features/button";
+import { CalendarDemo } from "@/components/features/calendar";
+import { CardWithForm } from "@/components/features/card";
+import { CollapsibleDemo } from "@/components/features/collapsible";
+import { ComboboxDemo } from "@/components/features/combobox";
+import { CommandDemo } from "@/components/features/command";
+import { ContextMenuDemo } from "@/components/features/context-menu";
+import { DataTableDemo } from "@/components/features/data-table";
+import { DatePickerDemo } from "@/components/features/date-picker";
+import { DialogDemo } from "@/components/features/dialog";
+import { DropdownMenuDemo } from "@/components/features/dropdown-menu";
 
 function Home() {
   return (
